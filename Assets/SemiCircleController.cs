@@ -1,4 +1,5 @@
-using UnityEngine;
+ï»¿using UnityEngine;
+using UnityEngine.UI;
 
 public class SemiCircleProportional : MonoBehaviour
 {
@@ -6,8 +7,10 @@ public class SemiCircleProportional : MonoBehaviour
     public float innerRadius = 50f;
     public float outerRadius = 120f;
 
-    public float[] weights; // proportions
+    public float[] weights;
     private RadialSlice[] slices;
+
+    public float growAmount = 0.5f;
 
     void Start()
     {
@@ -15,7 +18,7 @@ public class SemiCircleProportional : MonoBehaviour
         {
             weights = new float[sliceCount];
             for (int i = 0; i < sliceCount; i++)
-                weights[i] = 1f;  // valeurs par défaut égales
+                weights[i] = 1f;
         }
 
         GenerateSlices();
@@ -25,24 +28,39 @@ public class SemiCircleProportional : MonoBehaviour
     void GenerateSlices()
     {
         slices = new RadialSlice[sliceCount];
+
         for (int i = 0; i < sliceCount; i++)
         {
-            GameObject go = new GameObject("Slice" + i, typeof(RadialSlice));
+            GameObject go = new GameObject("Slice" + i);
             go.transform.SetParent(transform, false);
 
-            RadialSlice s = go.GetComponent<RadialSlice>();
-            s.innerRadius = innerRadius;
-            s.outerRadius = outerRadius;
+            // RadialSlice est le renderer
+            RadialSlice slice = go.AddComponent<RadialSlice>();
+            slice.innerRadius = innerRadius;
+            slice.outerRadius = outerRadius;
 
-            slices[i] = s;
+            // bouton
+            Button button = go.AddComponent<Button>();
+
+            // couleur (RadialSlice hÃ©rite de Graphic => color est disponible)
+            slice.color = Random.ColorHSV();
+
+            // capture de lâ€™index pour le callback
+            int capturedIndex = i;
+            button.onClick.AddListener(() =>
+            {
+                AddToSlice(capturedIndex, growAmount);
+            });
+
+            slices[i] = slice;
         }
     }
 
     void UpdateSlices()
     {
         float total = 0f;
-        for (int i = 0; i < weights.Length; i++)
-            total += weights[i];
+        foreach (float w in weights)
+            total += w;
 
         float currentAngle = 0f;
 
@@ -58,19 +76,24 @@ public class SemiCircleProportional : MonoBehaviour
         }
     }
 
-    // Appelle ceci pour modifier les proportions
     public void AddToSlice(int index, float amount)
     {
         weights[index] += amount;
 
-        // on empêche les valeurs négatives
-        if (weights[index] < 0.01f) weights[index] = 0.01f;
+        if (weights[index] < 0.01f)
+            weights[index] = 0.01f;
 
+        NormalizeWeights();
         UpdateSlices();
     }
 
-    public void AddToSliceFromButton(int index)
+    void NormalizeWeights()
     {
-        AddToSlice(index, 0.5f); // valeur que tu veux
+        float total = 0f;
+        foreach (float w in weights)
+            total += w;
+
+        for (int i = 0; i < sliceCount; i++)
+            weights[i] /= total;
     }
 }
