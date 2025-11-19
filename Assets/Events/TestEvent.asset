@@ -20,3 +20,9 @@ MonoBehaviour:
     euismod non, mi
   eventSummary: Lorem ipsum dolor sit amet.
   votingTime: 5
+  votes:
+  - Ce que vote le parti optimiste
+  - 'Ce que vote le parti '
+  - 
+  - 
+  - 

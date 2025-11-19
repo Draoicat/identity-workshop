@@ -30,7 +30,8 @@ public class EventResultsUI : MonoBehaviour
     {
         continueButton.gameObject.SetActive(true);
         resultWindow.SetActive(true);
-        dialogueText.text = "Résultats";
+        dialogueText.text = "Résultats : ";
+        //todo show result of winning party
     }
 
     public void EndResults()
