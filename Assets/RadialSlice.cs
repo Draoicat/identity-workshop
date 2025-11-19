@@ -1,8 +1,10 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.InputSystem.XR;
 using UnityEngine.UI;
 
 [RequireComponent(typeof(CanvasRenderer))]
-public class RadialSlice : MaskableGraphic
+public class RadialSlice : MaskableGraphic, IPointerClickHandler
 {
     public float startAngle;
     public float endAngle;
@@ -11,6 +13,22 @@ public class RadialSlice : MaskableGraphic
     public float outerRadius = 100f;
 
     public int resolution = 300;
+
+    public int sliceIndex;
+    private SemiCircleProportional controller;
+
+
+
+    public void Init(int index, SemiCircleProportional ctrl)
+    {
+        sliceIndex = index;
+        controller = ctrl;
+    }
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        controller.AddToSlice(sliceIndex, controller.growAmount);
+    }
 
     protected override void OnPopulateMesh(VertexHelper vh)
     {

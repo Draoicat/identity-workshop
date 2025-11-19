@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
 
 public class SemiCircleProportional : MonoBehaviour
 {
@@ -10,7 +9,7 @@ public class SemiCircleProportional : MonoBehaviour
     public float[] weights;
     private RadialSlice[] slices;
 
-    public float growAmount = 0.5f;
+    public float growAmount = 0.2f;
 
     void Start()
     {
@@ -34,27 +33,28 @@ public class SemiCircleProportional : MonoBehaviour
             GameObject go = new GameObject("Slice" + i);
             go.transform.SetParent(transform, false);
 
-            // RadialSlice est le renderer
             RadialSlice slice = go.AddComponent<RadialSlice>();
             slice.innerRadius = innerRadius;
             slice.outerRadius = outerRadius;
 
-            // bouton
-            Button button = go.AddComponent<Button>();
-
-            // couleur (RadialSlice hérite de Graphic => color est disponible)
             slice.color = Random.ColorHSV();
+            slice.Init(i, this);
 
-            // capture de l’index pour le callback
-            int capturedIndex = i;
-            button.onClick.AddListener(() =>
-            {
-                AddToSlice(capturedIndex, growAmount);
-            });
+            // Raycast filter
+            var filter = go.AddComponent<RadialSliceRaycastFilter>();
+            filter.innerRadius = innerRadius;
+            filter.outerRadius = outerRadius;
+
+            RectTransform rt = go.GetComponent<RectTransform>();
+            rt.sizeDelta = new Vector2(outerRadius * 2f, outerRadius * 2f);
+            rt.anchorMin = rt.anchorMax = new Vector2(0.5f, 0.5f);
+            rt.anchoredPosition = Vector2.zero;
+
 
             slices[i] = slice;
         }
     }
+
 
     void UpdateSlices()
     {
@@ -70,16 +70,23 @@ public class SemiCircleProportional : MonoBehaviour
 
             slices[i].startAngle = currentAngle;
             slices[i].endAngle = currentAngle + sliceAngle;
-
             slices[i].SetVerticesDirty();
+
+            // Update raycast filter
+            var filter = slices[i].GetComponent<RadialSliceRaycastFilter>();
+            filter.startAngle = currentAngle;
+            filter.endAngle = currentAngle + sliceAngle;
+
             currentAngle += sliceAngle;
         }
     }
 
     public void AddToSlice(int index, float amount)
     {
+        // augmente la part ciblée
         weights[index] += amount;
 
+        // empêche une part de disparaître
         if (weights[index] < 0.01f)
             weights[index] = 0.01f;
 
