@@ -55,6 +55,10 @@ public class EventManager : MonoBehaviour
         Debug.Log("Ending Event : " + CurrentEvent);
         OnEventFinished?.Invoke(CurrentEvent);
         CurrentEventIndex++;
+    }
+
+    public void ToNextEvent()
+    {
         if (CurrentEventIndex < events.Length) StartEvent(CurrentEvent);
         else Debug.Log("No More Events");
     }
