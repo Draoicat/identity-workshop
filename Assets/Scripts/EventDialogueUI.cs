@@ -7,12 +7,11 @@ public class EventDialogueUI : MonoBehaviour
     [SerializeField] private GameObject dialogue;
     private TMP_Text dialogueText;
     private Button continueButton;
-    private Image _image;
+    [SerializeField] private Image _image;
 
     private void Awake()
     {
         continueButton = GetComponentInChildren<Button>();
-        _image = GetComponentInChildren<Image>();
         dialogueText = dialogue.GetComponentInChildren<TMP_Text>();
     }
 
@@ -20,6 +19,7 @@ public class EventDialogueUI : MonoBehaviour
     {
         continueButton.gameObject.SetActive(false);
         dialogue.SetActive(false);
+        _image.gameObject.SetActive(false);
         EventManager.Instance.OnEventStarted += ActivateDialogue;
         EventManager.Instance.OnVoteStarted += StartVote;
         EventManager.Instance.OnVoteEnded += EndVote;
@@ -35,6 +35,7 @@ public class EventDialogueUI : MonoBehaviour
     private void ActivateDialogue(Event gameEvent)
     {
         dialogue.SetActive(true);
+        _image.gameObject.SetActive(true);
         continueButton.gameObject.SetActive(true);
         dialogueText.text = gameEvent.GetEventTextLine(currentLine);
         _image.sprite = gameEvent.Illustration;
@@ -62,5 +63,6 @@ public class EventDialogueUI : MonoBehaviour
     {
         continueButton.gameObject.SetActive(false);
         dialogue.SetActive(false);
+        _image.gameObject.SetActive(false);
     }
 }

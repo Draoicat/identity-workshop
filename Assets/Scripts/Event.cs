@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 [Serializable]
@@ -19,10 +17,7 @@ public class Event : ScriptableObject
 
     [SerializeField] private Solution[] solutions;
     
-
     [SerializeField] private Sprite illustration;
-    
-    
     
     public string GetEventTextLine(int line) => eventText[line];
     public int GetEventTextLineCount => eventText.Length;

@@ -7,6 +7,7 @@ public class EventResultsUI : MonoBehaviour
     [SerializeField] private GameObject resultWindow;
     private TMP_Text dialogueText;
     private Button continueButton;
+    
 
     private void Start()
     {
