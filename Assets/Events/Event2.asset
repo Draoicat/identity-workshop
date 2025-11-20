@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2b905f7d66d44a38d4d0e9fedace887, type: 3}
+  m_Name: Event2
+  m_EditorClassIdentifier: Assembly-CSharp::Event
+  eventText:
+  - "Vous arrivez dans votre cuisine, l'estomac brul\xE9 par le je\xFBne nocturne. "
+  - "Vos placards sont peu remplis, mais la chance vous laisse entrevoir des paquets
+    de c\xE9r\xE9ales oubli\xE9s dans le fond. "
+  - 'Qu''allez-vous savourez ? '
+  eventSummary: "Il ne vous reste que quelques paquets de c\xE9r\xE9ales pour deje\xFBner,
+    lequel choisir... "
+  votingTime: 10
+  solutions:
+  - solution: "Vous mangez des cornflakes, efficace nutritivement bien que pauvre
+      en terme de go\xFBt "
+    supportingParties: 010000000300000004000000
+  - solution: "Vous d\xE9gustez de d\xE9licieuses c\xE9r\xE9ales au chocolat, malgr\xE9
+      leurs effets d\xE9l\xE9t\xE8res sur la sant\xE9"
+    supportingParties: 0000000002000000
+  illustration: {fileID: -5225540622116197949, guid: 81a0291c175e80f43943d54e1e9af09e, type: 3}

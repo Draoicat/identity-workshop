@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2b905f7d66d44a38d4d0e9fedace887, type: 3}
+  m_Name: Event7
+  m_EditorClassIdentifier: Assembly-CSharp::Event
+  eventText:
+  - "Quand vous sortez de la salle de th\xE9atre, votre t\xE9l\xE9phone vibre. "
+  - "Des amis vous attendent dans un bar \xE0 quelques rues. Vous les rejoignez. "
+  - "Mais au bout d'une quizaine de minutes, votre crush vous invite \xE0 une petite
+    soir\xE9e film, que dites-vous pour partir ? "
+  eventSummary: "Vous venez de rejoindre des amis, mais votre crush vous invite chez
+    lui, vous h\xE9sitez \xE0 \xEAtre sinc\xE8re. "
+  votingTime: 5
+  solutions:
+  - solution: "Vous pr\xE9textez que votre p\xE8re vous demande de l'aide pour faire
+      ses courses \xE0 cause de sa sant\xE9 fragile"
+    supportingParties: 000000000100000002000000
+  - solution: "Vous leur montrez les message de votre crush, ils vous pr\xEAchent
+      d'y aller sans regret"
+    supportingParties: 0300000004000000
+  illustration: {fileID: -8974606370118370195, guid: 830747fb360af6246a93414382abaa63, type: 3}

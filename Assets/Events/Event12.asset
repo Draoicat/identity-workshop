@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2b905f7d66d44a38d4d0e9fedace887, type: 3}
+  m_Name: Event12
+  m_EditorClassIdentifier: Assembly-CSharp::Event
+  eventText:
+  - "Vous rentrez chez vous apr\xE8s une journ\xE9e particuli\xE8rement intense en
+    \xE9motions. "
+  - "Assis sur le clic-clac du votre studio, vous apercevez du coin de l'oeil, un
+    paquet de cigarettes laiss\xE9 par un ami. "
+  - "Bien que vous ayez arr\xEAt\xE9 de fumer, la fatigue accumul\xE9e de la journ\xE9e
+    vous fait h\xE9siter. "
+  eventSummary: "Bien que vous ayez arr\xEAt\xE9 de fumer, la fatigue accumul\xE9e
+    de la journ\xE9e vous fait h\xE9siter. "
+  votingTime: 5
+  solutions:
+  - solution: Vous vous en grillez une.
+    supportingParties: 0000000001000000020000000300000004000000
+  illustration: {fileID: -1540426309290004842, guid: 2daba0efc673e2b40a6462dabaf5509e, type: 3}

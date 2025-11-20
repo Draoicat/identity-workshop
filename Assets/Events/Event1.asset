@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2b905f7d66d44a38d4d0e9fedace887, type: 3}
+  m_Name: Event1
+  m_EditorClassIdentifier: Assembly-CSharp::Event
+  eventText:
+  - "Il est 7h, la sonnerie de votre r\xE9veil vous sort d'un r\xEAve particuli\xE8rement
+    plaisant. "
+  - "La fatigue vous ligote \xE0 votre lit, mais un cours qui vous int\xE9resse beaucoup
+    a lieu \xE0 la fac ce matin. "
+  - 'Que faites vous ? '
+  eventSummary: "Vous devez aller en cours, mais les vestiges de votre soir\xE9e
+    d'hier soir vous cloue au lit. "
+  votingTime: 10
+  solutions:
+  - solution: "Vous vous levez \xE0 la premi\xE8re sonnerie"
+    supportingParties: 0000000002000000
+  - solution: "Vous continuez \xE0 dormir jusqu'au dernier r\xE9veil"
+    supportingParties: 0100000003000000
+  - solution: "Vous envoyez valser votre r\xE9veil"
+    supportingParties: 04000000
+  illustration: {fileID: -3164809056393425246, guid: 6a118dccd6b1f7e4ebcc35e7a7782e82, type: 3}

@@ -964,10 +964,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1375143461}
     m_Modifications:
-    - target: {fileID: 726478885041751658, guid: 48614debeeb6b5143aa1f7be681320af, type: 3}
-      propertyPath: eventManager
-      value: 
-      objectReference: {fileID: 200297677}
     - target: {fileID: 1142123376971774688, guid: 48614debeeb6b5143aa1f7be681320af, type: 3}
       propertyPath: m_Name
       value: EventExposition

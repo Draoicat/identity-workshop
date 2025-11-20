@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2b905f7d66d44a38d4d0e9fedace887, type: 3}
+  m_Name: Event10
+  m_EditorClassIdentifier: Assembly-CSharp::Event
+  eventText:
+  - "Vous \xEAtes enfin arriv\xE9s chez la personne qui fait battre votre coeur. "
+  - "Install\xE9s dans son salon spacieux, elle vous propose de choisir entre 3 films
+    tr\xE8s diff\xE9rents. "
+  - 'Quel film choisissez-vous ? '
+  eventSummary: 'Vous devez choisir quel film regarder avec votre crush. '
+  votingTime: 5
+  solutions:
+  - solution: "Le dernier film de super h\xE9ro."
+    supportingParties: 03000000
+  - solution: La Fureur du dragon
+    supportingParties: 0100000004000000
+  - solution: Rashomon.
+    supportingParties: 0000000002000000
+  illustration: {fileID: -4742822896804548209, guid: 886cbd1e815c49648a219c3bd7ea309e, type: 3}

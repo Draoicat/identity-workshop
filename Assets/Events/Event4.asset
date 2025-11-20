@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2b905f7d66d44a38d4d0e9fedace887, type: 3}
+  m_Name: Event4
+  m_EditorClassIdentifier: Assembly-CSharp::Event
+  eventText:
+  - "Vous d\xE9ambulez dans les couloirs \xE9troits de la fac, "
+  - "Quand vous remarquez au loin, la personne dont votre coeur est \xE9pris. "
+  - 'Ses pupilles, d''un air sympathique, croisent les votres. Que faites-vous de
+    cette occasion ? '
+  eventSummary: "Votre crush semble ravi de vous croiser, \xE0 vous de d\xE9cider
+    quelle facette de vous lui plairait le plus. "
+  votingTime: 10
+  solutions:
+  - solution: "Vous allez lui parler, les yeux p\xE9tillants d'enthousiasme"
+    supportingParties: 000000000200000003000000
+  - solution: "Vous la saluez de loin, avec un sourir traduisant une g\xEAne mod\xE9r\xE9e"
+    supportingParties: 01000000
+  - solution: "Vous l'ignorez et faites demi-tour de mani\xE8re nonchalante et d\xE9tach\xE9e."
+    supportingParties: 04000000
+  illustration: {fileID: 7206959573948569261, guid: bf0a02b8b196eed4bb0400c3c3647874, type: 3}

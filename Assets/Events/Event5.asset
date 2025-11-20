@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2b905f7d66d44a38d4d0e9fedace887, type: 3}
+  m_Name: Event5
+  m_EditorClassIdentifier: Assembly-CSharp::Event
+  eventText:
+  - 'Midi, l''heure pour vous d''aller profiter d''un bon repas au restaurant universitaire. '
+  - 'Cependant vous allez devoir attendre une bonne demi-heure vu la file d''attente. '
+  - "Mais vous constatez avec surprise et incompr\xE9hension, qu'un groupe arriv\xE9
+    apr\xE8s, viens de se glisser juste devant vous. "
+  eventSummary: 'Alors que vous faites la queue pour aller manger, un groupe d''individu
+    vous double sans honte... '
+  votingTime: 5
+  solutions:
+  - solution: "Vous restez derri\xE8re eux sans broncher mais en bouillant de l'int\xE9rieur."
+    supportingParties: 04000000
+  - solution: "Vous rejoignez un de vos amis \xE0 la t\xEAte de file, doublant une
+      cinquantaine de personnes innocentes au passage"
+    supportingParties: 00000000010000000200000003000000
+  illustration: {fileID: -2276259661975475453, guid: 1c2998c62eb963c49a29e9908822807b, type: 3}

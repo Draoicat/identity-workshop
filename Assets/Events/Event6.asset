@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2b905f7d66d44a38d4d0e9fedace887, type: 3}
+  m_Name: Event6
+  m_EditorClassIdentifier: Assembly-CSharp::Event
+  eventText:
+  - "Apr\xE8s votre journ\xE9e de cours, il est temps pour vous d'aller \xE0 votre
+    job \xE9tudiant d'ouvreur au th\xE9\xE2tre de la ville. "
+  - "Mais apr\xE8s la s\xE9ance, un de vos sup\xE9rieurs vous reproche, \xE0 tort,
+    des probl\xE8mes de logistiques arriv\xE9s durant le spectacle. "
+  - "Vous percevez bien le m\xE9pris dans son regard et ses accusations malhonn\xEAtes,
+    comment r\xE9pliquez-vous ? "
+  eventSummary: "Un sup\xE9rieur clairement malhonn\xEAte vous accuse \xE0 tort de
+    probl\xE8mes d'organisation. "
+  votingTime: 5
+  solutions:
+  - solution: "Vous vous laissez \xE9craser sans rien dire pour ne pas vexer votre
+      sup\xE9rieur"
+    supportingParties: 03000000
+  - solution: "Vous lui pr\xE9sentez des excuses factices qui vous assure de garder
+      votre emploi"
+    supportingParties: 000000000100000002000000
+  - solution: "Vous perdez patience, et lui lancez avec flegme, qu'il est clairement
+      responsable de ces probl\xE8mes, en terminant d'une insulte bien m\xE9rit\xE9e"
+    supportingParties: 04000000
+  illustration: {fileID: 141893073332109768, guid: 2cdbbed41503ac94193ee8da6f60e377, type: 3}

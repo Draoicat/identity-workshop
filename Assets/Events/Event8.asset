@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2b905f7d66d44a38d4d0e9fedace887, type: 3}
+  m_Name: Event8
+  m_EditorClassIdentifier: Assembly-CSharp::Event
+  eventText:
+  - "Vous marchez d'un pas assur\xE9 pour vous rendre \xE0 l'appartement de votre
+    crush. "
+  - "Mais au moment de traverser un passage clout\xE9, un chauffard inconscient passe
+    au feu rouge. "
+  - "Circonspect par la situation, comment r\xE9agissez-vous ? "
+  eventSummary: "Un chauffard vous grille la priorit\xE9 et vous met en danger. "
+  votingTime: 5
+  solutions:
+  - solution: Vous lui faites un signe de main apaisant pour ne pas mettre de l'huile
+      sur le feu
+    supportingParties: 0000000002000000
+  - solution: Vous souriez poliment sans trop savoir pourquoi
+    supportingParties: 01000000
+  - solution: "Vous faites une signe insultant \xE0 l'automobiliste, votre regard
+      traduit une col\xE8re d\xE9sabus\xE9e."
+    supportingParties: 04000000
+  - solution: "Vous soufflez d'agacement, retourn\xE9 par la situation."
+    supportingParties: 03000000
+  illustration: {fileID: 6353601034191027049, guid: 55794c651df595648980fb2039b69373, type: 3}
