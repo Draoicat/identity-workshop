@@ -8,11 +8,12 @@ public class EventManager : MonoBehaviour
     
     public Action<Event> OnEventStarted { get; set; }
     
+    public Action OnCountdownStarted { get; set; }
+    
     public Action<Event> OnVoteStarted { get; set; }
     
     public Action<Event> OnVoteEnded { get; set; }
     public Action<Event> OnEventFinished { get; set; }
-    
 
     public int CurrentEventIndex { get; private set; } = 0;
     public Event CurrentEvent => events[CurrentEventIndex];
@@ -28,10 +29,17 @@ public class EventManager : MonoBehaviour
         Debug.Log("Starting Event : " + gameEvent);
     }
 
-    public void StartVote() 
+    public void StartVote()
     {
-        StartCoroutine(WaitForVotingTime(events[CurrentEventIndex]));
+        StartCoroutine(VoteCountdown());
         Debug.Log("Starting Vote of : " + events[CurrentEventIndex]);
+    }
+
+    private IEnumerator VoteCountdown()
+    {
+        OnCountdownStarted?.Invoke();
+        yield return new WaitForSeconds(3f);
+        StartCoroutine(WaitForVotingTime(events[CurrentEventIndex]));
     }
     
     private IEnumerator WaitForVotingTime(Event gameEvent)
@@ -50,63 +58,4 @@ public class EventManager : MonoBehaviour
         if (CurrentEventIndex < events.Length) StartEvent(CurrentEvent);
         else Debug.Log("No More Events");
     }
-    
-    /*public const int STARTING_HOUR = 8;
-
-    public const float MINUTE_TIME = 0.4f; //in game time speed
-    public const int END_TIME = 1000;
-
-    public float TimeSinceLastStep { get; private set; }
-    public int TimeStep { get; private set; }
-
-    public bool IsTimeRunning { get; private set; } = true;
-
-    public int Hour => TimeStep / 60 + STARTING_HOUR;
-    public int Minutes => TimeStep % 60;
-    public float CurrentMinuteProgress => TimeSinceLastStep / MINUTE_TIME;
-
-    public Event[] events;
-
-    private void Start()
-    {
-        StartTime();
-    }
-
-    private void Update()
-    {
-        if (!IsTimeRunning) return;
-
-        TimeSinceLastStep += Time.deltaTime;
-        if (TimeSinceLastStep >= MINUTE_TIME)
-        {
-            TimeSinceLastStep = 0;
-            TimeStep++;
-            Debug.Log("Current Time : " + Hour + ":" + Minutes);
-        }
-        WatchEvents();
-    }
-
-    public Action<Event> OnEventStart { get; set; }
-
-    private void WatchEvents()
-    {
-        foreach (var gameEvent in events)
-        {
-            if (TimeStep == gameEvent.Time)
-            {
-                OnEventStart?.Invoke(gameEvent);
-                StopTime();
-            }
-        }
-    }
-
-    public void StartTime()
-    {
-        IsTimeRunning = true;
-    }
-
-    public void StopTime()
-    {
-        IsTimeRunning = false;
-    }*/
 }
