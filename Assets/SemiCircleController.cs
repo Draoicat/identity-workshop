@@ -103,4 +103,25 @@ public class SemiCircleProportional : MonoBehaviour
         for (int i = 0; i < sliceCount; i++)
             weights[i] /= total;
     }
+
+    public float[] GetSlicePercentages()
+    {
+        float[] percents = new float[sliceCount];
+
+        float totalAngle = 180f;
+        float totalWeights = 0f;
+
+        foreach (float w in weights)
+            totalWeights += w;
+
+        for (int i = 0; i < sliceCount; i++)
+        {
+            float sliceAngle = (weights[i] / totalWeights) * totalAngle;
+            percents[i] = (sliceAngle / totalAngle) * 100f;
+        }
+
+        return percents;
+    }
+
+
 }
