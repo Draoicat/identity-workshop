@@ -4,7 +4,6 @@ using UnityEngine.UI;
 
 public class EventDialogueUI : MonoBehaviour
 {
-    [SerializeField] private EventManager eventManager;
     [SerializeField] private GameObject dialogue;
     private TMP_Text dialogueText;
     private Button continueButton;
@@ -19,16 +18,16 @@ public class EventDialogueUI : MonoBehaviour
     {
         continueButton.gameObject.SetActive(false);
         dialogue.SetActive(false);
-        eventManager.OnEventStarted += ActivateDialogue;
-        eventManager.OnVoteStarted += StartVote;
-        eventManager.OnVoteEnded += EndVote;
+        EventManager.Instance.OnEventStarted += ActivateDialogue;
+        EventManager.Instance.OnVoteStarted += StartVote;
+        EventManager.Instance.OnVoteEnded += EndVote;
     }
 
     private void OnDestroy()
     {
-        eventManager.OnEventStarted -= ActivateDialogue;
-        eventManager.OnVoteStarted -= StartVote;
-        eventManager.OnVoteEnded -= EndVote;
+        EventManager.Instance.OnEventStarted -= ActivateDialogue;
+        EventManager.Instance.OnVoteStarted -= StartVote;
+        EventManager.Instance.OnVoteEnded -= EndVote;
     }
     
     private void ActivateDialogue(Event gameEvent)
@@ -43,10 +42,10 @@ public class EventDialogueUI : MonoBehaviour
     public void PassLine()
     {
         ++currentLine;
-        if (currentLine < eventManager.CurrentEvent.GetEventTextLineCount)
-            ActivateDialogue(eventManager.CurrentEvent);
+        if (currentLine < EventManager.Instance.CurrentEvent.GetEventTextLineCount)
+            ActivateDialogue(EventManager.Instance.CurrentEvent);
         else
-            eventManager.StartVote();
+            EventManager.Instance.StartVote();
     }
 
     private void StartVote(Event gameEvent)

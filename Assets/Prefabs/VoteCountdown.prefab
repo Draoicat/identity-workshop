@@ -185,4 +185,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33e9ce852e5541d29ae3b29b6fd3026b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::VoteCountdownUI
-  eventManager: {fileID: 0}

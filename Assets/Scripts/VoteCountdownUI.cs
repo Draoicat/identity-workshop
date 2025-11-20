@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class VoteCountdownUI : MonoBehaviour
 {
-    [SerializeField] private EventManager eventManager;
     private TMP_Text _text;
 
     private bool _countdownRunning = false;
@@ -16,15 +15,15 @@ public class VoteCountdownUI : MonoBehaviour
 
     private void Start()
     {
-        eventManager.OnCountdownStarted += StartCountdown;
-        eventManager.OnVoteStarted += StopCountdown;
+        EventManager.Instance.OnCountdownStarted += StartCountdown;
+        EventManager.Instance.OnVoteStarted += StopCountdown;
         _text.gameObject.SetActive(false);
     }
 
     private void OnDestroy()
     {
-        eventManager.OnCountdownStarted -= StartCountdown;
-        eventManager.OnVoteStarted -= StopCountdown;
+        EventManager.Instance.OnCountdownStarted -= StartCountdown;
+        EventManager.Instance.OnVoteStarted -= StopCountdown;
     }
 
     private void StartCountdown()

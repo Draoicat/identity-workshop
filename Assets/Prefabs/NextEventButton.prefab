@@ -146,7 +146,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6663e1f26fde4d7999a5c51930052b4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NextEventButton
-  eventManager: {fileID: 0}
 --- !u!1 &8992558736707593537
 GameObject:
   m_ObjectHideFlags: 0

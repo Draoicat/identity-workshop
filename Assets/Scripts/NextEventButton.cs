@@ -2,18 +2,16 @@
 
 public class NextEventButton : MonoBehaviour
 {
-    [SerializeField] private EventManager eventManager;
     private void Start()
     {
-        eventManager.OnEventStarted += DesactivateButton;
-        eventManager.OnEventFinished += ActivateButton;
-        gameObject.SetActive(false);
+        EventManager.Instance.OnEventStarted += DesactivateButton;
+        EventManager.Instance.OnEventFinished += ActivateButton;
     }
 
     private void OnDestroy()
     {
-        eventManager.OnEventStarted -= DesactivateButton;
-        eventManager.OnEventFinished -= ActivateButton;
+        EventManager.Instance.OnEventStarted -= DesactivateButton;
+        EventManager.Instance.OnEventFinished -= ActivateButton;
     }
 
     private void ActivateButton(Event _)

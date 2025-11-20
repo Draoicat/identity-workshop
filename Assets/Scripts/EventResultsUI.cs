@@ -4,14 +4,13 @@ using UnityEngine.UI;
 
 public class EventResultsUI : MonoBehaviour
 {
-    [SerializeField] private EventManager eventManager;
     [SerializeField] private GameObject resultWindow;
     private TMP_Text dialogueText;
     private Button continueButton;
 
     private void Start()
     {
-        eventManager.OnVoteEnded += PrintResults;
+        EventManager.Instance.OnVoteEnded += PrintResults;
         dialogueText = resultWindow.gameObject.GetComponentInChildren<TMP_Text>();
         continueButton = GetComponentInChildren<Button>();
         
@@ -21,7 +20,7 @@ public class EventResultsUI : MonoBehaviour
 
     private void OnDestroy()
     {
-        eventManager.OnVoteEnded -= PrintResults;
+        EventManager.Instance.OnVoteEnded -= PrintResults;
     }
 
     private void PrintResults(Event gameEvent)
@@ -36,6 +35,6 @@ public class EventResultsUI : MonoBehaviour
     {
         continueButton.gameObject.SetActive(false);
         resultWindow.SetActive(false);
-        eventManager.EndEvent();
+        EventManager.Instance.EndEvent();
     }
 }
