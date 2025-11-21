@@ -1092,7 +1092,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1142123376971774688, guid: 48614debeeb6b5143aa1f7be681320af, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7155342839056351867, guid: 48614debeeb6b5143aa1f7be681320af, type: 3}
       propertyPath: m_Pivot.x
@@ -1273,7 +1273,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4904509708060098099, guid: 3d40c1de7fd144e44a282c54bab6df5d, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1294,7 +1294,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2550153895053651726, guid: 08423daf0cad7784b88ed019a3390e6a, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3722983434049635824, guid: 08423daf0cad7784b88ed019a3390e6a, type: 3}
       propertyPath: m_Pivot.x
@@ -1397,6 +1397,38 @@ PrefabInstance:
       propertyPath: clickSource
       value: 
       objectReference: {fileID: 508545424}
+    - target: {fileID: 5620003073044943383, guid: 9fba5e283fb858041b69caad29873dd7, type: 3}
+      propertyPath: 'slicePrefabs.Array.data[0]'
+      value: 
+      objectReference: {fileID: 6134161958926781309, guid: 5bee3249bcae96f459341ac3b7229cb0, type: 3}
+    - target: {fileID: 5620003073044943383, guid: 9fba5e283fb858041b69caad29873dd7, type: 3}
+      propertyPath: 'slicePrefabs.Array.data[1]'
+      value: 
+      objectReference: {fileID: 4580798773787704200, guid: 9c00b454643d1f04991e697bd1703cc2, type: 3}
+    - target: {fileID: 5620003073044943383, guid: 9fba5e283fb858041b69caad29873dd7, type: 3}
+      propertyPath: 'slicePrefabs.Array.data[3]'
+      value: 
+      objectReference: {fileID: 1410168757486980345, guid: 80911ba40b01fd34aa8c5a7d506921ff, type: 3}
+    - target: {fileID: 5620003073044943383, guid: 9fba5e283fb858041b69caad29873dd7, type: 3}
+      propertyPath: 'slicePrefabs.Array.data[4]'
+      value: 
+      objectReference: {fileID: 4516323664261324876, guid: 6dac483dbf4b3ad4eb7302f0f1c72fb2, type: 3}
+    - target: {fileID: 5620003073044943383, guid: 9fba5e283fb858041b69caad29873dd7, type: 3}
+      propertyPath: sliceColors.Array.data[1].a
+      value: 0.6039216
+      objectReference: {fileID: 0}
+    - target: {fileID: 5620003073044943383, guid: 9fba5e283fb858041b69caad29873dd7, type: 3}
+      propertyPath: sliceColors.Array.data[1].b
+      value: 0.5450981
+      objectReference: {fileID: 0}
+    - target: {fileID: 5620003073044943383, guid: 9fba5e283fb858041b69caad29873dd7, type: 3}
+      propertyPath: sliceColors.Array.data[1].g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5620003073044943383, guid: 9fba5e283fb858041b69caad29873dd7, type: 3}
+      propertyPath: sliceColors.Array.data[1].r
+      value: 0.5450981
+      objectReference: {fileID: 0}
     - target: {fileID: 5665979127942792608, guid: 9fba5e283fb858041b69caad29873dd7, type: 3}
       propertyPath: m_Name
       value: Hemycicle
@@ -1569,7 +1601,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5292839438863299148, guid: 95a7b938e85ff2149a02b3925ba2fb77, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7411885088691406516, guid: 95a7b938e85ff2149a02b3925ba2fb77, type: 3}
       propertyPath: m_Pivot.x
@@ -1750,7 +1782,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4026648190319558388, guid: 7feb8450611f50e4780fa1e3e9a2da32, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5021730881462275800, guid: 7feb8450611f50e4780fa1e3e9a2da32, type: 3}
       propertyPath: m_text
