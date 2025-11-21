@@ -1,4 +1,7 @@
-﻿using UnityEngine;
+﻿using System;
+using System.Linq;
+using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class SemiCircleProportional : MonoBehaviour
 {
@@ -119,9 +122,9 @@ public class SemiCircleProportional : MonoBehaviour
             float sliceAngle = (weights[i] / totalWeights) * totalAngle;
             percents[i] = (sliceAngle / totalAngle) * 100f;
         }
+        
+        Array.Reverse(percents);
 
         return percents;
     }
-
-
 }

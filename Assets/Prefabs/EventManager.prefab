@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7565141601499961786}
   - component: {fileID: 8979178652218145550}
+  - component: {fileID: 8387892201804172008}
   m_Layer: 0
   m_Name: EventManager
   m_TagString: Untagged
@@ -45,5 +46,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EventManager
   events:
-  - {fileID: 11400000, guid: b6c5735f6b205c944b51afe6d1092765, type: 2}
-  - {fileID: 11400000, guid: cf1a8664d8be76e478e7a583e32f513e, type: 2}
+  - {fileID: 11400000, guid: 4a45091b23f8e944a8ca6416ba057c77, type: 2}
+  - {fileID: 11400000, guid: abe8c4ae3a215504eb749e4c8741177f, type: 2}
+  - {fileID: 11400000, guid: b97d30d8e030bba438bb931246ec1520, type: 2}
+  - {fileID: 11400000, guid: b07c43f09a6340a458cd4311a7a6a605, type: 2}
+  - {fileID: 11400000, guid: ea570eb984818374f9d5f175adbae71a, type: 2}
+  - {fileID: 11400000, guid: c9da9441b3dd67347a3c796c2bcae098, type: 2}
+  - {fileID: 11400000, guid: ee5630c7e44d52f4280d13cf381cbd21, type: 2}
+  - {fileID: 11400000, guid: 46552e7d98796064187910a28ee3f445, type: 2}
+  - {fileID: 11400000, guid: dbba91384fd99f04cb07b2779caee6f0, type: 2}
+  - {fileID: 11400000, guid: 342a32539a86a3242896511aa82d2ba7, type: 2}
+  - {fileID: 11400000, guid: 8cf3fd1c73f2ec547995c7e99485f2b0, type: 2}
+  - {fileID: 11400000, guid: f31a52d3e9af8484fb8221fcd9f05921, type: 2}
+--- !u!114 &8387892201804172008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000696929447373052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3655260fce9d40a8b288f0824de5c770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Core.Results
+  semiCircleProportional: {fileID: 0}
+  chosenSolutions: []

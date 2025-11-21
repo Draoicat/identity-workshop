@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using Core;
+using UnityEngine;
+using Event = Core.Event;
 
 public class NextEventButton : MonoBehaviour
 {
