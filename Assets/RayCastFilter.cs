@@ -6,7 +6,7 @@ public class RadialSliceRaycastFilter : MonoBehaviour, ICanvasRaycastFilter
     public float startAngle;
     public float endAngle;
     public float innerRadius = 0f;
-    public float outerRadius = 200f;  // Défini par toi ou auto-calculé
+    public float outerRadius = 200f;  // DÃ©fini par toi ou auto-calculÃ©
 
     public bool IsRaycastLocationValid(Vector2 sp, Camera eventCamera)
     {
@@ -23,7 +23,7 @@ public class RadialSliceRaycastFilter : MonoBehaviour, ICanvasRaycastFilter
         float angle = Mathf.Atan2(local.y, local.x) * Mathf.Rad2Deg;
         angle = (angle + 360f) % 360f;
 
-        // Demi-cercle sur 180°
+        // Demi-cercle sur 180Â°
         if (startAngle < endAngle)
             return angle >= startAngle && angle <= endAngle;
 
