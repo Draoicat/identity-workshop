@@ -1,0 +1,1066 @@
+fileFormatVersion: 2
+guid: 641ec2fa378682b48b7839baa1fea5e6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6609140631313189072
+    second: 12_Clope_0
+  - first:
+      213: 5189541071244893620
+    second: 12_Clope_1
+  - first:
+      213: 8498865092607973777
+    second: 12_Clope_2
+  - first:
+      213: 3066005813573694645
+    second: 12_Clope_3
+  - first:
+      213: -7952429618004560250
+    second: 12_Clope_4
+  - first:
+      213: -8167753101616692577
+    second: 12_Clope_5
+  - first:
+      213: -2492665376280380352
+    second: 12_Clope_6
+  - first:
+      213: -146124489064898776
+    second: 12_Clope_7
+  - first:
+      213: 8105212192308431137
+    second: 12_Clope_8
+  - first:
+      213: 6970075995604440729
+    second: 12_Clope_9
+  - first:
+      213: -7133629170205272796
+    second: 12_Clope_10
+  - first:
+      213: -7303301180050054698
+    second: 12_Clope_11
+  - first:
+      213: 882073222194608187
+    second: 12_Clope_12
+  - first:
+      213: -7838016763963472908
+    second: 12_Clope_13
+  - first:
+      213: -8811284111147107911
+    second: 12_Clope_14
+  - first:
+      213: -6943749522626927478
+    second: 12_Clope_15
+  - first:
+      213: 8408983586105236641
+    second: 12_Clope_16
+  - first:
+      213: 7232033044430261790
+    second: 12_Clope_17
+  - first:
+      213: -3697203210454732408
+    second: 12_Clope_18
+  - first:
+      213: -7334502598699287363
+    second: 12_Clope_19
+  - first:
+      213: -5964359529745941923
+    second: 12_Clope_20
+  - first:
+      213: 9128452750903082229
+    second: 12_Clope_21
+  - first:
+      213: 6844903864820961035
+    second: 12_Clope_22
+  - first:
+      213: -1489582166858596089
+    second: 12_Clope_23
+  - first:
+      213: 1462309701275251353
+    second: 12_Clope_24
+  - first:
+      213: -7038762729859791285
+    second: 12_Clope_25
+  - first:
+      213: 2939108155077125633
+    second: 12_Clope_26
+  - first:
+      213: -3559407428722319067
+    second: 12_Clope_27
+  - first:
+      213: 566952237665296777
+    second: 12_Clope_28
+  - first:
+      213: -7112310480122089766
+    second: 12_Clope_29
+  - first:
+      213: -7702160935539765848
+    second: 12_Clope_30
+  - first:
+      213: 2848651638390796480
+    second: 12_Clope_31
+  - first:
+      213: -4806348757784568383
+    second: 12_Clope_32
+  - first:
+      213: -4626790783726342929
+    second: 12_Clope_33
+  - first:
+      213: -73764681226834480
+    second: 12_Clope_34
+  - first:
+      213: -4760309943981211677
+    second: 12_Clope_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 12_Clope_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2113
+        width: 987
+        height: 1806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d80600336268bb50800000000000000
+      internalID: 6609140631313189072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Clope_1
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 3482
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bd1ad2eb14f40840800000000000000
+      internalID: 5189541071244893620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Clope_2
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 3500
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1999dd6d5c802f570800000000000000
+      internalID: 8498865092607973777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Clope_3
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 2113
+        width: 987
+        height: 1806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b4b7550b04ac8a20800000000000000
+      internalID: 3066005813573694645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Clope_4
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 3482
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 686fa8d656b43a190800000000000000
+      internalID: -7952429618004560250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Clope_5
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 3500
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f92ca0524df46ae80800000000000000
+      internalID: -8167753101616692577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Clope_6
+      rect:
+        serializedVersion: 2
+        x: 2014
+        y: 2113
+        width: 986
+        height: 1806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04c74e60c06486dd0800000000000000
+      internalID: -2492665376280380352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Clope_7
+      rect:
+        serializedVersion: 2
+        x: 2014
+        y: 3482
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f1d482d8cd8fdf0800000000000000
+      internalID: -146124489064898776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Clope_8
+      rect:
+        serializedVersion: 2
+        x: 2014
+        y: 3500
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12985bfab8f7b7070800000000000000
+      internalID: 8105212192308431137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Clope_9
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 3478
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 996da7f503faab060800000000000000
+      internalID: 6970075995604440729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Clope_10
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 3478
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 425dc86b012400d90800000000000000
+      internalID: -7133629170205272796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Clope_11
+      rect:
+        serializedVersion: 2
+        x: 2014
+        y: 3478
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d1ec63754675aa90800000000000000
+      internalID: -7303301180050054698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Clope_12
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 3342
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b383bc21ce0cd3c00800000000000000
+      internalID: 882073222194608187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Clope_13
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 3342
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f38660e745c93390800000000000000
+      internalID: -7838016763963472908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Clope_14
+      rect:
+        serializedVersion: 2
+        x: 2014
+        y: 3342
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b9780cf8c708b580800000000000000
+      internalID: -8811284111147107911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Clope_15
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 2878
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a84a8864998d2af90800000000000000
+      internalID: -6943749522626927478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Clope_16
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 2878
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ac94e3d406b2b470800000000000000
+      internalID: 8408983586105236641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Clope_17
+      rect:
+        serializedVersion: 2
+        x: 2023
+        y: 2878
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1e0729acb75d5460800000000000000
+      internalID: 7232033044430261790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Clope_18
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 113
+        width: 987
+        height: 1806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 881796ac445e0bcc0800000000000000
+      internalID: -3697203210454732408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Clope_19
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1482
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbc79501fbc963a90800000000000000
+      internalID: -7334502598699287363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Clope_20
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1500
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5af6c4bb965a3da0800000000000000
+      internalID: -5964359529745941923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Clope_21
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 113
+        width: 987
+        height: 1806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fcf38e8967ceae70800000000000000
+      internalID: 9128452750903082229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Clope_22
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 1482
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0f0a589ccbfdfe50800000000000000
+      internalID: 6844903864820961035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Clope_23
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 1500
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70103a059e0f35be0800000000000000
+      internalID: -1489582166858596089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Clope_24
+      rect:
+        serializedVersion: 2
+        x: 2014
+        y: 113
+        width: 986
+        height: 1806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9927e18fcea2b4410800000000000000
+      internalID: 1462309701275251353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Clope_25
+      rect:
+        serializedVersion: 2
+        x: 2014
+        y: 1482
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b46c274179a415e90800000000000000
+      internalID: -7038762729859791285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Clope_26
+      rect:
+        serializedVersion: 2
+        x: 2014
+        y: 1500
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10663d38b4fc9c820800000000000000
+      internalID: 2939108155077125633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Clope_27
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1478
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 521ae185dc17a9ec0800000000000000
+      internalID: -3559407428722319067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Clope_28
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 1478
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98127aa6e083ed700800000000000000
+      internalID: 566952237665296777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Clope_29
+      rect:
+        serializedVersion: 2
+        x: 2014
+        y: 1478
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adee80c0d4ffb4d90800000000000000
+      internalID: -7112310480122089766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Clope_30
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1342
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ad034adf6d6c1590800000000000000
+      internalID: -7702160935539765848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Clope_31
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 1342
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c03e138291788720800000000000000
+      internalID: 2848651638390796480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Clope_32
+      rect:
+        serializedVersion: 2
+        x: 2014
+        y: 1342
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cd5c99154b6c4db0800000000000000
+      internalID: -4806348757784568383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Clope_33
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 878
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feca0f5cb465acfb0800000000000000
+      internalID: -4626790783726342929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Clope_34
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 878
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd218ac96fe9fef0800000000000000
+      internalID: -73764681226834480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Clope_35
+      rect:
+        serializedVersion: 2
+        x: 2023
+        y: 878
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ef7d30c35bffedb0800000000000000
+      internalID: -4760309943981211677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      12_Clope_0: 6609140631313189072
+      12_Clope_1: 5189541071244893620
+      12_Clope_10: -7133629170205272796
+      12_Clope_11: -7303301180050054698
+      12_Clope_12: 882073222194608187
+      12_Clope_13: -7838016763963472908
+      12_Clope_14: -8811284111147107911
+      12_Clope_15: -6943749522626927478
+      12_Clope_16: 8408983586105236641
+      12_Clope_17: 7232033044430261790
+      12_Clope_18: -3697203210454732408
+      12_Clope_19: -7334502598699287363
+      12_Clope_2: 8498865092607973777
+      12_Clope_20: -5964359529745941923
+      12_Clope_21: 9128452750903082229
+      12_Clope_22: 6844903864820961035
+      12_Clope_23: -1489582166858596089
+      12_Clope_24: 1462309701275251353
+      12_Clope_25: -7038762729859791285
+      12_Clope_26: 2939108155077125633
+      12_Clope_27: -3559407428722319067
+      12_Clope_28: 566952237665296777
+      12_Clope_29: -7112310480122089766
+      12_Clope_3: 3066005813573694645
+      12_Clope_30: -7702160935539765848
+      12_Clope_31: 2848651638390796480
+      12_Clope_32: -4806348757784568383
+      12_Clope_33: -4626790783726342929
+      12_Clope_34: -73764681226834480
+      12_Clope_35: -4760309943981211677
+      12_Clope_4: -7952429618004560250
+      12_Clope_5: -8167753101616692577
+      12_Clope_6: -2492665376280380352
+      12_Clope_7: -146124489064898776
+      12_Clope_8: 8105212192308431137
+      12_Clope_9: 6970075995604440729
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
