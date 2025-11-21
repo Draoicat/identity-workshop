@@ -25,6 +25,8 @@ namespace Core
         }
         
         public Action<Event> OnResultsGot { get; set; }
+        
+        
 
         public void GetResults(Event gameEvent)
         {

@@ -1,0 +1,378 @@
+fileFormatVersion: 2
+guid: 2e8e304e07414294a98cba17935bc3b7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5128638931994454137
+    second: 12_Clope 1_0
+  - first:
+      213: -7267255158810878566
+    second: 12_Clope 1_1
+  - first:
+      213: -3666389545911768961
+    second: 12_Clope 1_2
+  - first:
+      213: -858699651655372387
+    second: 12_Clope 1_3
+  - first:
+      213: 5485270355192512772
+    second: 12_Clope 1_4
+  - first:
+      213: 3445844681093443391
+    second: 12_Clope 1_5
+  - first:
+      213: 4434635728161803982
+    second: 12_Clope 1_6
+  - first:
+      213: -1367191173757701788
+    second: 12_Clope 1_7
+  - first:
+      213: -4345685988119898176
+    second: 12_Clope 1_8
+  - first:
+      213: 726545038274063138
+    second: 12_Clope 1_9
+  - first:
+      213: -9136631686660787740
+    second: 12_Clope 1_10
+  - first:
+      213: 1478076627009843923
+    second: 12_Clope 1_11
+  - first:
+      213: -6436999505283759602
+    second: 12_Clope 1_12
+  - first:
+      213: 4857472386261642354
+    second: 12_Clope 1_13
+  - first:
+      213: 8306400945527635883
+    second: 12_Clope 1_14
+  - first:
+      213: 991475806212801693
+    second: 12_Clope 1_15
+  - first:
+      213: -4972915724017769085
+    second: 12_Clope 1_16
+  - first:
+      213: 3162203325305905015
+    second: 12_Clope 1_17
+  - first:
+      213: -3331015707645515805
+    second: 12_Clope 1_18
+  - first:
+      213: 3712378306853769683
+    second: 12_Clope 1_19
+  - first:
+      213: 2388318096433521475
+    second: 12_Clope 1_20
+  - first:
+      213: -7729758949608790092
+    second: 12_Clope 1_21
+  - first:
+      213: 5823243002174032941
+    second: 12_Clope 1_22
+  - first:
+      213: -5670207074937921181
+    second: 12_Clope 1_23
+  - first:
+      213: 6359588886789310752
+    second: 12_Clope 1_24
+  - first:
+      213: -8989030928079726315
+    second: 12_Clope 1_25
+  - first:
+      213: 7416889476373248006
+    second: 12_Clope 1_26
+  - first:
+      213: -698563286264891612
+    second: 12_Clope 1_27
+  - first:
+      213: -6396353988966185866
+    second: 12_Clope 1_28
+  - first:
+      213: 5122253303331650245
+    second: 12_Clope 1_29
+  - first:
+      213: 4672712589328137887
+    second: 12_Clope 1_30
+  - first:
+      213: -7795242877214788795
+    second: 12_Clope 1_31
+  - first:
+      213: -2697121937684347261
+    second: 12_Clope 1_32
+  - first:
+      213: -8306748885981112204
+    second: 12_Clope 1_33
+  - first:
+      213: 5612755659906497765
+    second: 12_Clope 1_34
+  - first:
+      213: -4966485654620069965
+    second: 12_Clope 1_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 12_Clope 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2000
+        width: 1000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 978a4ca9fe59c2740800000000000000
+      internalID: 5128638931994454137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Clope 1_1
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2000
+        width: 1000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9dd3f6cfe5852b90800000000000000
+      internalID: -7267255158810878566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Clope 1_2
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2000
+        width: 1000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7829b3222e5e1dc0800000000000000
+      internalID: -3666389545911768961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Clope 1_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d91745667394514f0800000000000000
+      internalID: -858699651655372387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Clope 1_4
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 1000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4010b3a63589f1c40800000000000000
+      internalID: 5485270355192512772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Clope 1_5
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 0
+        width: 1000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3f6eb70b7912df20800000000000000
+      internalID: 3445844681093443391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 877020adedbcc46438a5aad29f8de48a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":2.0},"gridSpriteSize":{"x":1000.0,"y":2000.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      12_Clope 1_0: 5128638931994454137
+      12_Clope 1_1: -7267255158810878566
+      12_Clope 1_2: -3666389545911768961
+      12_Clope 1_3: -858699651655372387
+      12_Clope 1_4: 5485270355192512772
+      12_Clope 1_5: 3445844681093443391
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
