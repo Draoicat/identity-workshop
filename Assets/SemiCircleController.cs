@@ -9,6 +9,7 @@ public class SemiCircleProportional : MonoBehaviour
     public float innerRadius = 50f;
     public float outerRadius = 120f;
     public Color[] sliceColors;
+    public GameObject[] spritesPrefab;
 
     public float[] weights;
     private RadialSlice[] slices;
@@ -54,6 +55,10 @@ public class SemiCircleProportional : MonoBehaviour
             rt.anchorMin = rt.anchorMax = new Vector2(0.5f, 0.5f);
             rt.anchoredPosition = Vector2.zero;
 
+            var spawner = go.AddComponent<RadialSliceSeatsSpawner>();
+            spawner.seatPrefab = spritesPrefab[i];   // <-- assigné dans l’inspecteur ou via code
+
+
 
             slices[i] = slice;
         }
@@ -75,6 +80,11 @@ public class SemiCircleProportional : MonoBehaviour
             slices[i].startAngle = currentAngle;
             slices[i].endAngle = currentAngle + sliceAngle;
             slices[i].SetVerticesDirty();
+            // Met à jour l'agencement des sièges quand le slice change
+            var spawner = slices[i].GetComponent<RadialSliceSeatsSpawner>();
+            if (spawner != null)
+                spawner.SpawnSeats();
+
 
             // Update raycast filter
             var filter = slices[i].GetComponent<RadialSliceRaycastFilter>();
