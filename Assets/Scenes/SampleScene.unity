@@ -119,6 +119,17 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &118194667 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6613348987862818438, guid: 7feb8450611f50e4780fa1e3e9a2da32, type: 3}
+  m_PrefabInstance: {fileID: 8142713285781183380}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!114 &200297677 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8979178652218145550, guid: d80fe2332f2b7924590ba18c2e94e586, type: 3}
@@ -1490,6 +1501,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1375143461}
     m_Modifications:
+    - target: {fileID: 1845613757045807571, guid: 7feb8450611f50e4780fa1e3e9a2da32, type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 2daba0efc673e2b40a6462dabaf5509e, type: 3}
     - target: {fileID: 2258472817660806794, guid: 7feb8450611f50e4780fa1e3e9a2da32, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1570,6 +1585,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2581222761509743788, guid: 7feb8450611f50e4780fa1e3e9a2da32, type: 3}
+      propertyPath: choicesText
+      value: 
+      objectReference: {fileID: 118194667}
     - target: {fileID: 4026648190319558388, guid: 7feb8450611f50e4780fa1e3e9a2da32, type: 3}
       propertyPath: m_Name
       value: EndScreen
