@@ -1,0 +1,323 @@
+fileFormatVersion: 2
+guid: 57158ec038b996341bb7b79a695585bc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7948812031471376606
+    second: Perso_IA_Anime_0
+  - first:
+      213: -8588492015798415780
+    second: Perso_IA_Anime_1
+  - first:
+      213: -1193584230229350683
+    second: Perso_IA_Anime_2
+  - first:
+      213: 8851882562550992326
+    second: Perso_IA_Anime_3
+  - first:
+      213: -5604082318041242771
+    second: Perso_IA_Anime_4
+  - first:
+      213: 4372436547811641090
+    second: Perso_IA_Anime_5
+  - first:
+      213: -761327737834219300
+    second: Perso_IA_Anime_6
+  - first:
+      213: -3363252880583741646
+    second: Perso_IA_Anime_7
+  - first:
+      213: -17695263058941844
+    second: Perso_IA_Anime_8
+  - first:
+      213: 8704218034523874754
+    second: Perso_IA_Anime_9
+  - first:
+      213: -8780597480333663436
+    second: Perso_IA_Anime_10
+  - first:
+      213: 6407887402807186053
+    second: Perso_IA_Anime_11
+  - first:
+      213: 9011882254768881418
+    second: Perso_IA_Anime_12
+  - first:
+      213: 5391137909628678847
+    second: Perso_IA_Anime_13
+  - first:
+      213: 7581449116324124275
+    second: Perso_IA_Anime_14
+  - first:
+      213: 2686681197977267989
+    second: Perso_IA_Anime_15
+  - first:
+      213: -7258736699111318738
+    second: Perso_IA_Anime_16
+  - first:
+      213: -7516058180237119893
+    second: Perso_IA_Anime_17
+  - first:
+      213: 58001384750358954
+    second: Perso_IA_Anime_18
+  - first:
+      213: -1740893004164903148
+    second: Perso_IA_Anime_19
+  - first:
+      213: -898719242355446221
+    second: Perso_IA_Anime_20
+  - first:
+      213: 4050793855130138664
+    second: Perso_IA_Anime_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Perso_IA_Anime_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 682
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed8d3329d6adf4e60800000000000000
+      internalID: 7948812031471376606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perso_IA_Anime_1
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 1024
+        width: 682
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5e8e02f30c8fc880800000000000000
+      internalID: -8588492015798415780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perso_IA_Anime_2
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 1024
+        width: 682
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e6ebab67798f6fe0800000000000000
+      internalID: -1193584230229350683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perso_IA_Anime_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 682
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cd83569a4438da70800000000000000
+      internalID: 8851882562550992326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perso_IA_Anime_4
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 0
+        width: 682
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d63aa1dc2dc4a32b0800000000000000
+      internalID: -5604082318041242771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perso_IA_Anime_5
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 0
+        width: 682
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2078f33cfd30eac30800000000000000
+      internalID: 4372436547811641090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: abaad3083d86c804488c14e2d8e8517e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":2.0},"gridSpriteSize":{"x":682.0,"y":1024.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Perso_IA_Anime_0: 7948812031471376606
+      Perso_IA_Anime_1: -8588492015798415780
+      Perso_IA_Anime_2: -1193584230229350683
+      Perso_IA_Anime_3: 8851882562550992326
+      Perso_IA_Anime_4: -5604082318041242771
+      Perso_IA_Anime_5: 4372436547811641090
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
