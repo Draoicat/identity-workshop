@@ -23,8 +23,8 @@ MonoBehaviour:
   - solution: Pris de court par une situation pourtant habituelle, vous sortez un
       billet de 10. Vous mangerez un peu moins cette semaine...
     supportingParties: 0000000002000000
-  - solution: Pris de court par une situation pourtant habituelle, vous sortez un
-      billet de 10. Vous mangerez un peu moins cette semaine...
+  - solution: "Vous cherchez dans vos poches, et lui tendez une pi\xE8ce de 50 centimes
+      vous sentez n\xE9anmoins son regard s'adoucir."
     supportingParties: 0100000004000000
   - solution: "Vous passez \xE0 c\xF4t\xE9 de lui en le d\xE9visageant, marmonnant
       un \"bonjour\" timide."
