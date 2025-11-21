@@ -1,7 +1,9 @@
+using Core;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem.XR;
 using UnityEngine.UI;
+using Event = Core.Event;
 
 [RequireComponent(typeof(CanvasRenderer))]
 public class RadialSlice : MaskableGraphic, IPointerClickHandler
@@ -17,16 +19,33 @@ public class RadialSlice : MaskableGraphic, IPointerClickHandler
     public int sliceIndex;
     private SemiCircleProportional controller;
 
+    private bool canClick = false;
+    
+
+    private void ActivateClick(Event _)
+    {
+        canClick = true;
+    }
+    
+    private void DeactivateClick(Event _)
+    {
+        canClick = false;
+    }
 
 
     public void Init(int index, SemiCircleProportional ctrl)
     {
         sliceIndex = index;
         controller = ctrl;
+
+        EventManager.Instance.OnVoteStarted += ActivateClick;
+        EventManager.Instance.OnVoteEnded += DeactivateClick;
     }
 
     public void OnPointerClick(PointerEventData eventData)
     {
+        if (!canClick) return;
+        
         controller.AddToSlice(sliceIndex, controller.growAmount);
     }
 
