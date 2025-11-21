@@ -8,6 +8,7 @@ public class SemiCircleProportional : MonoBehaviour
     public int sliceCount = 6;
     public float innerRadius = 50f;
     public float outerRadius = 120f;
+    public Color[] sliceColors;
 
     public float[] weights;
     private RadialSlice[] slices;
@@ -40,7 +41,7 @@ public class SemiCircleProportional : MonoBehaviour
             slice.innerRadius = innerRadius;
             slice.outerRadius = outerRadius;
 
-            slice.color = Random.ColorHSV();
+            slice.color = sliceColors[i];
             slice.Init(i, this);
 
             // Raycast filter
