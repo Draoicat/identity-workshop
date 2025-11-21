@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="757de0f8-e406-4c6f-b771-b8c8f31b0fb6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Events/Event1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Events/Event1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RadialSlice.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RadialSlice.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RayCastFilter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RayCastFilter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RenderTextures/RT_Screen_ONE.renderTexture" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RenderTextures/RT_Screen_ONE.renderTexture" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RenderTextures/RT_Screen_TWO.renderTexture" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RenderTextures/RT_Screen_TWO.renderTexture" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SemiCircleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SemiCircleController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
-    </list>
+    <list default="true" id="757de0f8-e406-4c6f-b771-b8c8f31b0fb6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
