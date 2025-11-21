@@ -27,6 +27,7 @@ namespace UI
             EventManager.Instance.OnEventStarted += ActivateDialogue;
             EventManager.Instance.OnVoteStarted += StartVote;
             EventManager.Instance.OnVoteEnded += EndVote;
+            EventManager.Instance.OnVoteStarted += RemoveIllustration;
         }
 
         private void OnDestroy()
@@ -34,6 +35,7 @@ namespace UI
             EventManager.Instance.OnEventStarted -= ActivateDialogue;
             EventManager.Instance.OnVoteStarted -= StartVote;
             EventManager.Instance.OnVoteEnded -= EndVote;
+            EventManager.Instance.OnVoteStarted -= RemoveIllustration;
         }
     
         private void ActivateDialogue(Event gameEvent)
@@ -43,6 +45,12 @@ namespace UI
             continueButton.gameObject.SetActive(true);
             dialogueText.text = gameEvent.GetEventTextLine(currentLine);
             _image.sprite = gameEvent.Illustration;
+            _image.preserveAspect = true;
+        }
+
+        private void RemoveIllustration(Event gameEvent)
+        {
+            _image.gameObject.SetActive(false);
         }
 
         private int currentLine = 0;

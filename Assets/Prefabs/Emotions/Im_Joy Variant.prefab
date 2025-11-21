@@ -109,6 +109,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7606278877978568273, guid: 311c98c2b16d28f4ea9b945cd9deac1e, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7606278877978568273, guid: 311c98c2b16d28f4ea9b945cd9deac1e, type: 3}
       propertyPath: m_PreserveAspect
       value: 1
       objectReference: {fileID: 0}
