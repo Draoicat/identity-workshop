@@ -42,7 +42,7 @@ public class SemiCircleProportional : MonoBehaviour
             slice.innerRadius = innerRadius;
             slice.outerRadius = outerRadius;
 
-            slice.color = sliceColors[i];
+            slice.color = Random.ColorHSV();
             slice.Init(i, this);
 
             // Raycast filter
@@ -54,10 +54,6 @@ public class SemiCircleProportional : MonoBehaviour
             rt.sizeDelta = new Vector2(outerRadius * 2f, outerRadius * 2f);
             rt.anchorMin = rt.anchorMax = new Vector2(0.5f, 0.5f);
             rt.anchoredPosition = Vector2.zero;
-
-            var spawner = go.AddComponent<RadialSliceSeatsSpawner>();
-            spawner.seatPrefab = spritesPrefab[i];   // <-- assigné dans l’inspecteur ou via code
-
 
 
             slices[i] = slice;
