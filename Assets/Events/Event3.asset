@@ -19,7 +19,7 @@ MonoBehaviour:
     partir ? '
   eventSummary: "Un citadin espi\xE8gle vous bouscule brutalement, mettant un terme
     \xE0 la tranquillit\xE9 de votre voyage vers la fac. "
-  votingTime: 10
+  votingTime: 3
   solutions:
   - solution: Vous vous s'excusez platement d'avoir ralenti sa balade
     supportingParties: 000000000100000002000000

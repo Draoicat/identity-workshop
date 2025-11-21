@@ -19,7 +19,7 @@ MonoBehaviour:
     soir\xE9e film, que dites-vous pour partir ? "
   eventSummary: "Vous venez de rejoindre des amis, mais votre crush vous invite chez
     lui, vous h\xE9sitez \xE0 \xEAtre sinc\xE8re. "
-  votingTime: 5
+  votingTime: 3
   solutions:
   - solution: "Vous pr\xE9textez que votre p\xE8re vous demande de l'aide pour faire
       ses courses \xE0 cause de sa sant\xE9 fragile"

@@ -4,10 +4,18 @@ using UnityEngine;
 namespace Core
 {
     public class Results : MonoBehaviour
-    {
+    {       
+        public static Results Instance;
+
+        private void Awake()
+        {
+            if (Instance == null) Instance = this;
+            else Destroy(this.gameObject);
+        }
         public SemiCircleProportional semiCircleProportional;
 
         public Solution[] chosenSolutions;
+        public Solution ChosenSolutionForCurrentStep => chosenSolutions[EventManager.Instance.CurrentEventIndex];
 
         private void Start()
         {

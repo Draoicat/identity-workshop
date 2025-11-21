@@ -19,7 +19,7 @@ MonoBehaviour:
     apr\xE8s, viens de se glisser juste devant vous. "
   eventSummary: 'Alors que vous faites la queue pour aller manger, un groupe d''individu
     vous double sans honte... '
-  votingTime: 5
+  votingTime: 3
   solutions:
   - solution: "Vous restez derri\xE8re eux sans broncher mais en bouillant de l'int\xE9rieur."
     supportingParties: 04000000

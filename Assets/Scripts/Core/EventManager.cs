@@ -30,7 +30,8 @@ namespace Core
 
         public int CurrentEventIndex { get; private set; } = 0;
         public Event CurrentEvent => events[CurrentEventIndex];
-
+        
+        
         private void StartEvent(Event gameEvent)
         {
             OnEventStarted?.Invoke(gameEvent);

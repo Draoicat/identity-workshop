@@ -1574,6 +1574,39 @@ PrefabInstance:
       propertyPath: m_Name
       value: EndScreen
       objectReference: {fileID: 0}
+    - target: {fileID: 5021730881462275800, guid: 7feb8450611f50e4780fa1e3e9a2da32, type: 3}
+      propertyPath: m_text
+      value: "Cr\xE9dits\n\nNathan\nWania\nGAILLARD Neil\nNeyl\nArt\nSimon-Ribet
+        Lancelot\nMazzocco Amandine\nHugo\nArcaina Zo\xE9\nNils\nJules\nEtienne"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5021730881462275800, guid: 7feb8450611f50e4780fa1e3e9a2da32, type: 3}
+      propertyPath: m_fontSize
+      value: 45.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5021730881462275800, guid: 7feb8450611f50e4780fa1e3e9a2da32, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 45.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7509173620540241585, guid: 7feb8450611f50e4780fa1e3e9a2da32, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 475.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 7509173620540241585, guid: 7feb8450611f50e4780fa1e3e9a2da32, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -99.0001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7509173620540241585, guid: 7feb8450611f50e4780fa1e3e9a2da32, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 110.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7509173620540241585, guid: 7feb8450611f50e4780fa1e3e9a2da32, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -470.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7509173620540241585, guid: 7feb8450611f50e4780fa1e3e9a2da32, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -49.499954
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

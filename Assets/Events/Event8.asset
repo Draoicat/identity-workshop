@@ -19,7 +19,7 @@ MonoBehaviour:
     au feu rouge. "
   - "Circonspect par la situation, comment r\xE9agissez-vous ? "
   eventSummary: "Un chauffard vous grille la priorit\xE9 et vous met en danger. "
-  votingTime: 5
+  votingTime: 3
   solutions:
   - solution: Vous lui faites un signe de main apaisant pour ne pas mettre de l'huile
       sur le feu

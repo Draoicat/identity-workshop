@@ -19,7 +19,7 @@ MonoBehaviour:
   - 'Qu''allez-vous savourez ? '
   eventSummary: "Il ne vous reste que quelques paquets de c\xE9r\xE9ales pour deje\xFBner,
     lequel choisir... "
-  votingTime: 10
+  votingTime: 3
   solutions:
   - solution: "Vous mangez des cornflakes, efficace nutritivement bien que pauvre
       en terme de go\xFBt "

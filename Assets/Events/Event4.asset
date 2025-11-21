@@ -19,7 +19,7 @@ MonoBehaviour:
     cette occasion ? '
   eventSummary: "Votre crush semble ravi de vous croiser, \xE0 vous de d\xE9cider
     quelle facette de vous lui plairait le plus. "
-  votingTime: 10
+  votingTime: 3
   solutions:
   - solution: "Vous allez lui parler, les yeux p\xE9tillants d'enthousiasme"
     supportingParties: 000000000200000003000000

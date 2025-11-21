@@ -18,7 +18,7 @@ MonoBehaviour:
     tr\xE8s diff\xE9rents. "
   - 'Quel film choisissez-vous ? '
   eventSummary: 'Vous devez choisir quel film regarder avec votre crush. '
-  votingTime: 5
+  votingTime: 3
   solutions:
   - solution: "Le dernier film de super h\xE9ro."
     supportingParties: 03000000

@@ -31,8 +31,17 @@ namespace UI
         {
             continueButton.gameObject.SetActive(true);
             resultWindow.SetActive(true);
-            dialogueText.text = "Résultats : ";
-            //todo show result of winning party
+            dialogueText.text = Results.Instance.ChosenSolutionForCurrentStep.solution + '\n' + "Le ";
+            for (int i = 0; i < Results.Instance.ChosenSolutionForCurrentStep.supportingParties.Length; ++i)
+            {
+                dialogueText.text += Results.Instance.ChosenSolutionForCurrentStep.supportingParties[i].PartyName();
+                if (i != Results.Instance.ChosenSolutionForCurrentStep.supportingParties.Length - 1)
+                    dialogueText.text += " et le ";
+            }
+            if (Results.Instance.ChosenSolutionForCurrentStep.supportingParties.Length > 1)
+                dialogueText.text += " ont voté pour cette décision.";
+            else
+                dialogueText.text += " a voté pour cette décision.";
         }
 
         public void EndResults()

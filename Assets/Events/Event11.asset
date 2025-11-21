@@ -23,7 +23,7 @@ MonoBehaviour:
     ? "
   eventSummary: "L'\xE9tat de sant\xE9 de votre p\xE8re s'aggrave, votre m\xE8re
     demande votre pr\xE9sence bien vos relations avec lui soient tendues. "
-  votingTime: 5
+  votingTime: 3
   solutions:
   - solution: "Vous d\xE9talez \xE0 forte allure vers l'hopital, arriv\xE9 la-bas,
       vous tentez de consoler votre m\xE8re en larme..."

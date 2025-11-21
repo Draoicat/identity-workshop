@@ -20,7 +20,7 @@ MonoBehaviour:
   - 'Que faites vous ? '
   eventSummary: "Vous devez aller en cours, mais les vestiges de votre soir\xE9e
     d'hier soir vous cloue au lit. "
-  votingTime: 10
+  votingTime: 3
   solutions:
   - solution: "Vous vous levez \xE0 la premi\xE8re sonnerie"
     supportingParties: 0000000002000000

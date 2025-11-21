@@ -21,7 +21,7 @@ MonoBehaviour:
     vous fait h\xE9siter. "
   eventSummary: "Bien que vous ayez arr\xEAt\xE9 de fumer, la fatigue accumul\xE9e
     de la journ\xE9e vous fait h\xE9siter. "
-  votingTime: 5
+  votingTime: 3
   solutions:
   - solution: Vous vous en grillez une.
     supportingParties: 0000000001000000020000000300000004000000

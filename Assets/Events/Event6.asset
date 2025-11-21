@@ -21,7 +21,7 @@ MonoBehaviour:
     comment r\xE9pliquez-vous ? "
   eventSummary: "Un sup\xE9rieur clairement malhonn\xEAte vous accuse \xE0 tort de
     probl\xE8mes d'organisation. "
-  votingTime: 5
+  votingTime: 3
   solutions:
   - solution: "Vous vous laissez \xE9craser sans rien dire pour ne pas vexer votre
       sup\xE9rieur"

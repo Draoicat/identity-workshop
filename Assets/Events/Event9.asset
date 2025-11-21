@@ -18,7 +18,7 @@ MonoBehaviour:
     quelques pi\xE8ces. "
   - 'Que lui donnez vous ? '
   eventSummary: 'Un sans abris vous demande de l''argent. '
-  votingTime: 5
+  votingTime: 3
   solutions:
   - solution: Pris de court par une situation pourtant habituelle, vous sortez un
       billet de 10. Vous mangerez un peu moins cette semaine...

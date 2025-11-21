@@ -124,7 +124,6 @@ public class SemiCircleProportional : MonoBehaviour
         }
         
         Array.Reverse(percents);
-
         return percents;
     }
 }
