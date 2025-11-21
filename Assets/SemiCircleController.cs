@@ -101,11 +101,6 @@ public class SemiCircleProportional : MonoBehaviour
             slices[i].startAngle = currentAngle;
             slices[i].endAngle = currentAngle + sliceAngle;
             slices[i].SetVerticesDirty();
-            // Met à jour l'agencement des sièges quand le slice change
-            var spawner = slices[i].GetComponent<RadialSliceSeatsSpawner>();
-            if (spawner != null)
-                spawner.SpawnSeats();
-
 
             // Update raycast filter
             var filter = slices[i].GetComponent<RadialSliceRaycastFilter>();

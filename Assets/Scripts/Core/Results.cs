@@ -1,5 +1,4 @@
-﻿using System;
-using System.Linq;
+﻿using System.Linq;
 using UnityEngine;
 
 namespace Core
@@ -23,8 +22,6 @@ namespace Core
             chosenSolutions = new Solution[EventManager.Instance.EventCount];
             EventManager.Instance.OnVoteEnded += GetResults;
         }
-        
-        public Action<Event> OnResultsGot { get; set; }
 
         public void GetResults(Event gameEvent)
         {
@@ -48,7 +45,7 @@ namespace Core
             }
             
             chosenSolutions[EventManager.Instance.CurrentEventIndex] = gameEvent.solutions[chosenSolutionIndex];
-            OnResultsGot?.Invoke(gameEvent);
+            Debug.Log(chosenSolutions[EventManager.Instance.CurrentEventIndex]);
         }
     }
 }

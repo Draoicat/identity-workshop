@@ -14,7 +14,7 @@ namespace UI
     
         private void Start()
         {
-            Results.Instance.OnResultsGot += PrintResults;
+            EventManager.Instance.OnVoteEnded += PrintResults;
             dialogueText = resultWindow.gameObject.GetComponentInChildren<TMP_Text>();
             continueButton = GetComponentInChildren<Button>();
         
@@ -24,7 +24,7 @@ namespace UI
 
         private void OnDestroy()
         {
-            Results.Instance.OnResultsGot -= PrintResults;
+            EventManager.Instance.OnVoteEnded -= PrintResults;
         }
 
         private void PrintResults(Event gameEvent)
