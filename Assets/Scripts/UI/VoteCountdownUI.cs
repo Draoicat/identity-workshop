@@ -2,6 +2,7 @@
 using Core;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 using Event = Core.Event;
 
 namespace UI
@@ -9,6 +10,7 @@ namespace UI
     public class VoteCountdownUI : MonoBehaviour
     {
         private TMP_Text _text;
+        [SerializeField] Image image;
 
         private bool _countdownRunning = false;
 
@@ -22,6 +24,7 @@ namespace UI
             EventManager.Instance.OnCountdownStarted += StartCountdown;
             EventManager.Instance.OnVoteStarted += StopCountdown;
             _text.gameObject.SetActive(false);
+            image.gameObject.SetActive(false);
         }
 
         private void OnDestroy()
@@ -33,12 +36,14 @@ namespace UI
         private void StartCountdown()
         {
             _text.gameObject.SetActive(true);
+            image.gameObject.SetActive(true);
             _countdownRunning = true;
         }
 
         private void StopCountdown(Event gameEvent)
         {
             _text.gameObject.SetActive(false);
+            image.gameObject.SetActive(true);
             _countdownRunning = false;
             _timeSpent = 0f;
         }
