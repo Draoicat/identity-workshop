@@ -20,6 +20,8 @@ public class SemiCircleProportional : MonoBehaviour
     [SerializeField] private AudioSource clickSource;
     [SerializeField] private AudioClip clickSound;
 
+    [SerializeField] private GameObject transformParent;
+
     public float growAmount = 0.2f;
 
     [SerializeField]
