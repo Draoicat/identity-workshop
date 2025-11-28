@@ -404,6 +404,17 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1056931119 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5620003073044943383, guid: 9fba5e283fb858041b69caad29873dd7, type: 3}
+  m_PrefabInstance: {fileID: 4499993979346720657}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35e678b443a40b744bca701faa729142, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SemiCircleController
 --- !u!224 &1181531970 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3722983434049635824, guid: 08423daf0cad7784b88ed019a3390e6a, type: 3}
@@ -1094,6 +1105,18 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5936154508043613954, guid: 48614debeeb6b5143aa1f7be681320af, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5936154508043613954, guid: 48614debeeb6b5143aa1f7be681320af, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6655532191050623538, guid: 48614debeeb6b5143aa1f7be681320af, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 31
+      objectReference: {fileID: 0}
     - target: {fileID: 7155342839056351867, guid: 48614debeeb6b5143aa1f7be681320af, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1546,7 +1569,7 @@ PrefabInstance:
     - target: {fileID: 8387892201804172008, guid: d80fe2332f2b7924590ba18c2e94e586, type: 3}
       propertyPath: semiCircleProportional
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1056931119}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

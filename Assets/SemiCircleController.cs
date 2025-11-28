@@ -69,6 +69,7 @@ public class SemiCircleProportional : MonoBehaviour
                 ? sliceColors[i] 
                 : Color.white;
             slice.Init(i, this);
+            slice.flashColor = slice.color + new Color(0.2f, 0.2f, 0.2f, 0.2f);
 
             // Raycast filter
             var filter = go.AddComponent<RadialSliceRaycastFilter>();
